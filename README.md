@@ -36,14 +36,11 @@ https://matheusesilva.github.io/restaurant/
 - **src/home.js**, **src/menu.js**, **src/contact.js**  
   Independent modules exporting functions that construct and return each page’s content.
 
-- **src/template.html**  
+- **src/index.html**  
   Base HTML with header, nav buttons, and empty `#content` container.
 
 - **webpack.config.js**  
   Webpack configuration for bundling JavaScript and processing the HTML template.
-
-- **dist/**  
-  Production build output (ignored by Git).
 
 ## How to Run
 ```bash
